@@ -2,6 +2,9 @@ using DevOpsDemo.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//Credential for communicate DevOps with Azure
+//https://learn.microsoft.com/en-us/azure/devops/pipelines/release/configure-workload-identity?view=azure-devops
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
